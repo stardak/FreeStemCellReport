@@ -1,39 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
 
-/* RecoletaAlt Font Family */
-/* RecoletaAlt Font Family (served from client/public/fonts) */
+/* RecoletaAlt (files live in client/src/fonts) */
 @font-face {
   font-family: 'RecoletaAlt';
-  src: url('/fonts/RecoletaAlt-Thin.woff2') format('woff2');
+  src: url('./fonts/RecoletaAlt-Thin.woff2') format('woff2');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'RecoletaAlt';
-  src: url('/fonts/RecoletaAlt-Light.woff2') format('woff2');
+  src: url('./fonts/RecoletaAlt-Light.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'RecoletaAlt';
-  src: url('/fonts/RecoletaAlt-Regular.woff2') format('woff2');
+  src: url('./fonts/RecoletaAlt-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'RecoletaAlt';
-  src: url('/fonts/RecoletaAlt-Medium.woff2') format('woff2');
+  src: url('./fonts/RecoletaAlt-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'RecoletaAlt';
-  src: url('/fonts/RecoletaAlt-SemiBold.woff2') format('woff2');
+  src: url('./fonts/RecoletaAlt-SemiBold.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -42,6 +41,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 
 :root {
