@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.freestemcellreport.com/sitemap.xml
