@@ -4,38 +4,17 @@
 /* RecoletaAlt (files live in client/src/fonts) */
 @font-face {
   font-family: 'RecoletaAlt';
-  src: url('./fonts/RecoletaAlt-Thin.woff2') format('woff2');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'RecoletaAlt';
-  src: url('./fonts/RecoletaAlt-Light.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'RecoletaAlt';
-  src: url('./fonts/RecoletaAlt-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'RecoletaAlt';
-  src: url('./fonts/RecoletaAlt-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'RecoletaAlt';
-  src: url('./fonts/RecoletaAlt-SemiBold.woff2') format('woff2');
+  src: url('./fonts/RecoletaAlt-SemiBold.woff2') format('woff2'),
+       url('./fonts/RecoletaAlt-SemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
+}
+
+/* Use Recoleta for display text only (we only have 600 right now) */
+h1, h2, h3, .font-display {
+  font-family: 'RecoletaAlt', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial;
+  font-weight: 600; /* ensure the right weight is used */
 }
 
 @tailwind base;
